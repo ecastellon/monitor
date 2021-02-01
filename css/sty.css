@@ -1,0 +1,118 @@
+/*
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+*/
+/*.carousel-inner > .item > img { width:100%; height:570px; }*/
+.w-100 {
+    width: 100% !important;
+    height: 100vh;
+}
+
+body {
+    background-color: hsl(0deg 0% 13%);
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+/*
+.carousel-indicators .active {
+    background-color: #2980b9;
+    visibility: hidden;
+}
+*/
+
+.header-text {
+    position: absolute;
+    top: 33%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: rgb(9, 71, 71);
+}
+.header-text h1 {
+    font-size: 70px;
+}
+.header-text h2 {
+    font-size: 50px;
+}
+                
+.reveal table td {
+    border-bottom: none;
+}
+
+#censo tbody tr {
+    background-color:#111111;
+}
+
+#estrato tbody tr {
+    background-color:#111111;
+}
+#cv tbody tr {
+    background-color:#111111;
+}
+
+thead th {
+    color: goldenrod;
+}
+
+/*
+#giro tbody tr {
+    background-color:#111111;
+}
+
+#area tbody tr {
+    background-color:#111111;
+}
+
+#hato tbody tr {
+    background-color:#111111;
+}
+
+#raza tbody tr {
+    background-color:#111111;
+}
+
+#tam tbody tr {
+    background-color:#111111;
+}
+
+#otro tbody tr {
+    background-color:#111111;
+}
+
+#leche tbody tr {
+    background-color:#111111;
+}
+
+#queso tbody tr {
+    background-color:#111111;
+}
+
+#cuaj tbody tr {
+    background-color:#111111;
+}
+
+#ave tbody tr {
+    background-color:#111111;
+}
+
+#huevo tbody tr {
+    background-color:#111111;
+}
+
+thead th {
+     color: goldenrod;
+}
+ */
+.twocolumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: left;
+ }
